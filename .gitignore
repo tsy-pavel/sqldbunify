@@ -1,0 +1,187 @@
+# ============================================================
+# Virtual environments
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.python-version
+.virtualenv/
+virtualenv/
+
+# ============================================================
+# Python bytecode / cache
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+
+# ============================================================
+# Build / distribution
+# ============================================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# ============================================================
+# PyInstaller / packaging
+# ============================================================
+*.manifest
+*.spec
+
+
+# ============================================================
+# Testing / coverage
+# ============================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+*.cover
+*.py,cover
+.cache
+
+
+# ============================================================
+# Linters / type checkers / formatters
+# ============================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+.typecache/
+
+
+# ============================================================
+# Databases (локальные файлы SQLite при тестах)
+# ============================================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+
+# ============================================================
+# Environment variables
+# ============================================================
+.env
+.env.*
+!.env.example
+
+
+# ============================================================
+# IDE — VSCode
+# ============================================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# IDE — JetBrains (PyCharm, IntelliJ)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+
+# IDE — Vim / Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+tags
+
+
+# IDE — Emacs
+*~
+\#*\#
+.\#*
+
+
+# IDE — Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+
+# ============================================================
+# OS-specific
+# ============================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+# Linux
+*~
+.directory
+.Trash-*
+
+
+# ============================================================
+# Jupyter / notebooks (если будут в проекте)
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+
+# ============================================================
+# Logs / temporary files
+# ============================================================
+*.log
+logs/
+tmp/
+temp/
+*.bak
+*.tmp
+
+
+# ============================================================
+# Project-specific
+# ============================================================
+# Файлы, создаваемые при сборке
+/src/sqldbunify.egg-info/
+/src/*.egg-info/
+
+# Lock-файлы (опционально, если решите фиксировать версии)
+# poetry.lock
+# Pipfile.lock
+# uv.lock
+
+# Временные файлы тестов
+/tests/.tmp/
+/tests/tmp_*/

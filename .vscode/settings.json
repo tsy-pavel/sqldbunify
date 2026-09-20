@@ -1,0 +1,23 @@
+{
+    "python.defaultInterpreterPath": ".virtualenv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "ruff.lineLength": 120,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "ruff.interpreter": [".virtualenv/bin/python"],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.pytest_cache": true,
+        "**/.ruff_cache": true,
+        "**/.mypy_cache": true,
+        "**/*.egg-info": true
+    }
+}
